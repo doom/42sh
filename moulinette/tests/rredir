@@ -1,0 +1,2 @@
+NAME=ls > a; cat a; rm a;
+CMD=ls > a; cat a; rm a;

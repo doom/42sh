@@ -1,0 +1,2 @@
+NAME=ls /run/NetworkManager/resolv.conf | cat -e | rev | less | rev | tr -cd "[a-z][A-Z]/." | less
+CMD=ls /run/NetworkManager/resolv.conf | cat -e | rev | less | rev | tr -cd "[a-z][A-Z]/." | less

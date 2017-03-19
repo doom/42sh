@@ -1,0 +1,2 @@
+NAME=ls pipe cat pipe tr
+CMD=ls | cat -e | tr "e" "z"

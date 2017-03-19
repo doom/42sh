@@ -1,0 +1,2 @@
+NAME=echo "salut ca va" > a; cat < a; rm a
+CMD=echo "salut ca va" > a; cat < a; rm a

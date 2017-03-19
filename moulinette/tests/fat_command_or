@@ -1,0 +1,2 @@
+NAME=ls | cat -e | less && ls -l | tr "a" "z" | rev | less && true || echo "salut" && echo "FAIL"
+CMD=ls | cat -e | less && ls -l | tr "a" "z" | rev | less && true || echo "salut" && echo "FAIL"

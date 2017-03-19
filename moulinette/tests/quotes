@@ -1,0 +1,2 @@
+NAME=echo "|cat && false || echo lol"
+CMD=echo "|cat && false || echo lol"

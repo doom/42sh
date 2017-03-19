@@ -1,0 +1,2 @@
+NAME=ls pipe cat
+CMD=ls | cat -e

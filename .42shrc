@@ -1,0 +1,27 @@
+#!/bin/bash
+#This is a comment. Also, emacs needs a 42sh-mode and not only a bash-mode :p
+	#This is a comment too
+################# Epic Hashtag :D
+
+# Whoa ! Aliases ! Give it a try :D
+alias l="ls"
+alias ls="ls --color"
+alias la="ls -a"
+alias ll="ls -l"
+alias lR="ls -R"
+alias grep="grep --color"
+alias tree="tree -C"
+alias ne="emacs -nw"
+
+# Hé Hé ! this is an export test for env variables :D
+export PAGER="less"
+export HOSTNAME="le-pc"
+export SHELL="42sh"
+export PS1="\e[35;1m(\u@\h)\e[0m"
+export NUM_PROMPT="yes"
+export NUM_COLOR="\e[33m"
+export DIR_PROMPT="yes"
+export DIR_COLOR="\e[31m"
+
+#Yep, you can execute commands directly in .42shrc
+#cd /

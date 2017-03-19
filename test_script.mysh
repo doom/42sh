@@ -1,0 +1,22 @@
+#!42sh
+
+echo "Salut, ceci est un test de scripting"
+echo "It Works Bitches !"
+sleep 0.5
+echo "Un ls -l :"
+sleep 0.5
+ls -l
+sleep 2
+echo "Et si on le mettait dans un fichier ?"
+sleep 1
+ls -l >> test_file
+echo Et un cat :
+sleep 0.5
+cat test_file
+rm test_file
+sleep 2
+echo Waaaaaah
+echo "Et on peut exécuter des commandes en sudo :"
+sleep 0.5
+echo "Quand tu fais sudo, tu es (enfin tu sauras quand t'auras tapé ton password) :"
+sudo whoami

@@ -1,0 +1,2 @@
+NAME=echo * ; ls * #Ne marche pas car tcsh n'utilise pas glob (pas de / après les dossiers)
+CMD=echo * ; ls *
